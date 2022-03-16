@@ -1,0 +1,2177 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Dosis', cursive;
+}
+
+@media screen and (min-width: 1360px) {
+
+
+    /* ABOUT BÖLÜMÜ */
+
+    .aboutheader {
+        width: 100%;
+        height: 250px;
+        background: url(../img/about.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -180px;
+    }
+
+    .aboutsection {
+        width: 1320px;
+        height: 850px;
+        margin: auto;
+    }
+
+    .aboutsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 28px;
+        text-align: center;
+        margin: 50px 0 70px;
+        letter-spacing: 15px;
+    }
+
+    .aboutsection img {
+        width: 450px;
+        height: 600px;
+        border: 1px solid #000;
+        padding: 10px;
+        margin-left: 50px;
+        float: left;
+    }
+
+    .aboutsection .abouticon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .aboutsection .abouticon i {
+        width: 50px;
+        height: 65px;
+    }
+
+    .whoami p {
+        line-height: 30px;
+        font-size: 20px;
+        font-family: 'Alegreya', serif;
+        letter-spacing: 2px;
+    }
+
+    .aboutsection article {
+        width: 650px;
+        float: right;
+    }
+
+
+    /* ABOUT BİTİŞ */
+
+    /* CONTACT BÖLÜMÜ */
+
+    .contactheader {
+        width: 100%;
+        height: 250px;
+        background: url(../img/klavye.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .contactsection {
+        width: 1320px;
+        height: 850px;
+        margin: auto;
+    }
+
+    .contactsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 28px;
+        text-align: center;
+        margin: 50px 0 70px;
+        letter-spacing: 15px;
+    }
+
+    .contactsection img {
+        width: 500px;
+        height: 650px;
+        border: 1px solid #000;
+        padding: 5px;
+        margin-left: 40px;
+        float: left;
+    }
+
+    .contactsection .contactidea {
+        width: 700px;
+        float: right;
+    }
+
+    .contactsection .contactidea .write p {
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Crimson Text', serif;
+        padding-top: 140px;
+        letter-spacing: 2px;
+    }
+
+    .icons {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .icons a {
+        margin: 0 10px;
+        color: rgb(123, 120, 120);
+        text-decoration: none;
+    }
+
+    .icons i {
+        margin-right: 10px;
+        color: rgb(36, 142, 181);
+    }
+
+    .idea p {
+        margin: 60px 0 20px;
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+    .socialcontact {
+    
+        text-align: center;
+    }
+
+    .socialcontact .first {
+        color: rgb(157, 65, 115);
+    } 
+
+    .socialcontact .second {
+        color:  rgb(32, 160, 220);
+        margin: 0 50px;
+    }
+
+    .socialcontact .third {
+        color: blue;
+    }
+
+
+    /* CONTACT BİTİŞ */
+
+    .header {
+        width: 100%;
+        height: 756px;
+        position: relative;
+        background: url(../img/arkaplan3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .test {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(000, 000, 000, .5);
+    }
+
+    .menuler {
+        width: 1200px;
+        height: 50px;
+        margin: auto;
+    }
+
+    .menu {
+        list-style-type: none; 
+        float: left;
+    }
+
+    .menu li {
+        display: inline-block;
+        line-height: 50px;
+        padding:0 25px;
+    }
+
+    .menu li:first-child {
+        padding-left: 0;
+    }
+
+    .menu li:last-child {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #95a5a6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .menu li a:hover {
+        color: white;
+        transition: 200ms;
+    }
+
+    .logo1 img {
+        height: 40px;
+        float: right;
+        margin: 5px 0;
+    }
+
+    .webwelcome {
+        width: 1250px;  
+        margin: auto;     
+    }
+
+    .welcome, .benkim {
+        text-shadow: 5px 5px 10px #000;
+    }
+
+    .welcome {
+        width: 100%;
+        background: rgba(000, 000, 000, .5);
+        margin-top: 5px;
+    }
+
+    .welcome h4 {
+        color: white;
+        margin-bottom: 220px;
+        text-align: center;
+        letter-spacing: 12px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;   
+        text-align: center;
+    }
+
+    .benkim h1 {
+        font-family: Raleway,sans-serif;
+        font-size: 90px;
+        text-align: center;
+        color:rgb(177, 120, 17);    
+    }
+
+    .benkim h3 {
+        color: #eca944;
+        font-family: 'Alegreya', serif;
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .social {
+        font-size: 25px;
+        margin-top: 50px;
+        /* margin-left: 290px; */
+        position: absolute;
+        bottom: 0px;
+        left: 41%;
+    }
+
+    .social a {
+        margin: 0 30px;
+        transition: 200ms;
+    }
+
+    .social .first, .second, .third {
+        color: white;
+    }
+
+    .social .first:hover {
+        color: violet;
+    }
+
+    .social .second:hover {
+        color: rgb(32, 160, 220);
+    }
+
+    .social .third:hover {
+        color: blue;
+    }
+
+    /* PORTFOL BÖLÜMÜ */
+
+    .portfolsection {
+        width: 1300px;
+        height: 900px;
+        margin: auto;
+    }
+
+    .portfolsection h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 28px;
+        text-align: center;
+        margin: 30px 0;
+        letter-spacing: 10px;
+    }
+
+    .portfolsection H3 {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .gallery {
+        width: 1300px;
+        margin: 0 auto;
+        padding: 30px;
+        background: #fff;
+        box-shadow: 0 1px 2px rgba(0,0,0,.3);
+      }
+      
+      .gallery div {
+        position: relative;
+        float: left;
+        padding: 10px;
+      }
+      
+      .gallery > div > img {
+        display: block;
+        width: 300px;
+        transition: .1s transform;
+        transform: translateZ(0); /* hack */
+      }
+      
+      .gallery > div:hover {
+        z-index: 1;
+      }
+      
+      .gallery > div:hover > img {
+        transform: scale(1.7,1.7);
+        transition: .3s transform;
+      }
+      
+      .cf:before, .cf:after {
+        display: table;
+        content: "";
+        line-height: 0;
+      }
+      
+      .cf:after {
+        clear: both;
+      }
+      
+     
+
+
+
+
+
+    /* SECTİON BÖLÜMÜ */
+
+    .section1 {
+        width: 1360px;
+        height: 850px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .section1 h2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    .macfoto {
+        width: 550px;
+        height: 600px;
+        margin-top: 100px;
+        border: 1px solid #000;
+        padding: 10px;
+        float: left;
+    }
+
+    .section1 article {
+        width: 745px;
+        float: right;
+        margin-top: 100px;
+    }
+
+    .infoicon {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        color: orangered;
+        margin-top: 10px;
+    }
+
+    .whatabout {
+        margin-left: 20px;
+    }
+
+    .whatabout p {
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 20px;
+        font-family:  'Oswald', sans-serif;
+        letter-spacing: 2px;
+    }
+
+    /* FOOTER BÖLÜMÜ */
+
+    .footer {
+        background: #141618;
+    }
+
+    .footer .container {
+        width: 1240px;
+        height: 170px;
+        padding-top: 40px;
+        margin: auto;	
+        
+    }
+    .footer .footer-nav {
+        display: flex;
+        float: left;
+        margin-left: 50px;
+    }
+
+
+    .footer .footer-nav nav {
+        margin-right: 150px;
+        
+    }
+
+    .footer-nav nav:last-child {
+        margin-right: 0;
+    }
+
+    .footer-nav ul {
+        list-style-type: none;    
+    }
+
+
+    .footer-nav .ilkh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        width: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    .footer-nav .sonh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    .footer-nav ul li a {
+        
+        font-size: 15px;
+        color: rgba(255, 255, 255, .5);
+        line-height: 150%;
+        transition: 200ms;
+        text-decoration: none;
+    }
+
+    .footer-nav ul li a i {
+        margin-right: 5px;
+    }
+
+    .footer-nav ul li a:hover {
+        color: white;
+    }
+
+    .footerlogo img {
+        width: 100px;
+        float: right;
+    }
+
+    /* CPYRİGHT */
+
+    .footer .copyright {
+        background: #000;
+        color: rgba(255, 255, 255, .5);
+        padding: 5px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 960px) and (max-width: 1359px) {
+
+
+    /* ABOUT BÖLÜMÜ */
+
+.aboutheader {
+    width: 100%;
+    height: 200px;
+    background: url(../img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -180px;
+}
+
+.aboutsection {
+    width: 850px;
+    height: 1350px;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutsection h2 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 0 50px;
+    letter-spacing: 14px;
+}
+
+.aboutsection img {
+    width: 550px;
+    height: 700px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.aboutsection .abouticon {
+    text-align: center;
+    margin:40px 0 30px;
+}
+
+.aboutsection .abouticon i {
+    width: 50px;
+    height: 65px;
+}
+
+.whoami p {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.aboutsection article {
+    width: 650px;
+    margin: auto;
+}
+
+
+/* ABOUT BİTİŞ */
+
+/* CONTACT BÖLÜMÜ */
+
+.contactheader {
+    width: 100%;
+    height: 250px;
+    background: url(../img/klavye.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contactsection {
+    width: 850px;
+    height: 1450px;
+    margin: auto;
+    text-align: center;
+}
+
+.contactsection h2 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 28px;
+    text-align: center;
+    margin: 50px 0 70px;
+    letter-spacing: 15px;
+}
+
+.contactsection img {
+    width: 550px;
+    height: 700px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.contactsection .contactidea {
+    width: 700px;
+    margin: auto;
+}
+
+.contactsection .contactidea .write p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Crimson Text', serif;
+    padding-top: 40px;
+    letter-spacing: 2px;
+}
+
+.icons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icons a {
+    margin: 0 10px;
+    color: rgb(123, 120, 120);
+    text-decoration: none;
+}
+
+.icons i {
+    margin-right: 10px;
+    color: rgb(36, 142, 181);
+}
+
+.idea p {
+    margin: 60px 0 20px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.socialcontact {
+   
+    text-align: center;
+}
+
+.socialcontact .first {
+    color: rgb(157, 65, 115);
+} 
+
+.socialcontact .second {
+    color:  rgb(32, 160, 220);
+    margin: 0 50px;
+}
+
+.socialcontact .third {
+    color: blue;
+}
+
+
+/* CONTACT BİTİŞ */
+
+.header {
+    width: 100%;
+    height: 756px;
+    position: relative;
+    background: url(../img/arkaplan3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.test {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(000, 000, 000, .5);
+}
+
+.menuler {
+    width: 850px;
+    height: 50px;
+    margin: auto;
+}
+
+.menu {
+    list-style-type: none; 
+    float: left;
+}
+
+.menu li {
+    display: inline-block;
+    line-height: 50px;
+    padding:0 25px;
+}
+
+.menu li:first-child {
+    padding-left: 0;
+}
+
+.menu li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #95a5a6;
+}
+
+.menu li a:hover {
+    color: white;
+    transition: 200ms;
+}
+
+.logo1 img {
+    height: 40px;
+    float: right;
+    margin: 5px 0;
+}
+
+.welcome {
+    width: 100%;
+    background: rgba(000, 000, 000, .5);
+    margin-top: 5px;
+}
+
+.webwelcome {
+    width: 850px;  
+    margin: auto;
+    margin-top: 150px;
+}
+
+.welcome, .benkim {
+    text-shadow: 5px 5px 10px #000;
+}
+
+.welcome h4 {
+    color: white;
+    margin-bottom: 80px;
+    margin-left: 40px;
+    letter-spacing: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.benkim h1 {
+    font-family: Raleway,sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color:  #eca944;
+}
+
+.benkim h3 {
+    color:  #eca944;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social {
+	font-size: 25px;
+    margin-top: 50px;
+    /* margin-left: 290px; */
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+
+.social a {
+	margin: 0 30px;
+	transition: 200ms;
+}
+
+.social .first, .second, .third {
+    color: white;
+}
+
+.social .first:hover {
+	color: violet;
+}
+
+.social .second:hover {
+	color: rgb(32, 160, 220);
+}
+
+.social .third:hover {
+    color: blue;
+}
+
+/* SECTİON BÇLÜMÜ */
+
+.section1 {
+    width: 850px;
+    height: 1250px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section1 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.macfoto {
+    width: 550px;
+    height: 600px;
+    margin-top: 50px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.section1 article {
+    width: 768px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.infoicon {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    color: orangered;
+    margin-top: 10px;
+}
+
+.whatabout {
+    margin-left: 20px;
+}
+
+.whatabout p {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+/* FOOTER BÖLÜMÜ */
+
+.footer {
+    background: #141618;
+    position: relative;
+}
+
+.footer .container {
+    width: 850px;
+    height: 170px;
+    padding-top: 40px;
+    margin: auto;	
+	position: relative;
+}
+.footer .footer-nav {
+	display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+
+.footer .footer-nav nav {
+    margin-right: 150px;
+    
+}
+
+.footer-nav nav:last-child {
+    margin-right: 0;
+}
+
+.footer-nav ul {
+    list-style-type: none;    
+}
+
+
+.footer-nav .ilkh4 {
+	color: #fff;
+	letter-spacing: 1,3px;
+	margin-bottom: 10px;
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.footer-nav .sonh4 {
+	color: #fff;
+	letter-spacing: 1,3px;
+	margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.footer-nav ul li a {
+	
+	font-size: 15px;
+	color: rgba(255, 255, 255, .5);
+	line-height: 150%;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.footer-nav ul li a i {
+	margin-right: 5px;
+}
+
+.footer-nav ul li a:hover {
+	color: white;
+}
+
+.footerlogo img {
+    width: 100px;
+    float: right;
+}
+
+/* CPYRİGHT */
+
+.footer .copyright {
+    background: #000;
+	color: rgba(255, 255, 255, .5);
+    padding: 5px 0;
+    text-align: center;
+    font-size: 14px;
+}
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+
+    /* ABOUT BÖLÜMÜ */
+
+    .aboutheader {
+        width: 100%;
+        height: 200px;
+        background: url(../img/about.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -180px;
+    }
+    
+    .aboutsection {
+        width: 700px;
+        height: 1350px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .aboutsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 28px;
+        text-align: center;
+        margin: 30px 0 50px;
+        letter-spacing: 14px;
+    }
+    
+    .aboutsection img {
+        width: 550px;
+        height: 700px;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    
+    .aboutsection .abouticon {
+        text-align: center;
+        margin:40px 0 30px;
+    }
+    
+    .aboutsection .abouticon i {
+        width: 50px;
+        height: 65px;
+    }
+    
+    .whoami p {
+        line-height: 30px;
+        font-size: 20px;
+        font-family: 'Alegreya', serif;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .aboutsection article {
+        width: 650px;
+        margin: auto;
+    }
+    
+    
+    /* ABOUT BİTİŞ */
+    
+    /* CONTACT BÖLÜMÜ */
+    
+    .contactheader {
+        width: 100%;
+        height: 200px;
+        background: url(../img/klavye.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .contactsection {
+        width: 700px;
+        height: 1450px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contactsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 28px;
+        text-align: center;
+        margin: 50px 0 70px;
+        letter-spacing: 15px;
+    }
+    
+    .contactsection img {
+        width: 550px;
+        height: 700px;
+        border: 1px solid #000;
+        padding: 5px;
+    }
+    
+    .contactsection .contactidea {
+        width: 700px;
+        margin: auto;
+    }
+    
+    .contactsection .contactidea .write p {
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Crimson Text', serif;
+        padding-top: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .icons {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .icons a {
+        margin: 0 10px;
+        color: rgb(123, 120, 120);
+        text-decoration: none;
+    }
+    
+    .icons i {
+        margin-right: 10px;
+        color: rgb(36, 142, 181);
+    }
+    
+    .idea p {
+        margin: 60px 0 20px;
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    
+    .socialcontact {
+       
+        text-align: center;
+    }
+    
+    .socialcontact .first {
+        color: rgb(157, 65, 115);
+    } 
+    
+    .socialcontact .second {
+        color:  rgb(32, 160, 220);
+        margin: 0 50px;
+    }
+    
+    .socialcontact .third {
+        color: blue;
+    }
+    
+    
+    /* CONTACT BİTİŞ */
+    
+    .header {
+        width: 100%;
+        height: 700px;
+        position: relative;
+        background: url(../img/arkaplan3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .test {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(000, 000, 000, .5);
+    }
+    
+    .menuler {
+        width: 660px;
+        height: 50px;
+        margin: auto;
+    }
+    
+    .menu {
+        list-style-type: none; 
+        float: left;
+    }
+    
+    .menu li {
+        display: inline-block;
+        line-height: 50px;
+        padding:0 25px;
+    }
+    
+    .menu li:first-child {
+        padding-left: 0;
+    }
+    
+    .menu li:last-child {
+        border-right: none;
+        padding-right: 0;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: #95a5a6;
+    }
+    
+    .menu li a:hover {
+        color: white;
+        transition: 200ms;
+    }
+    
+    .logo1 img {
+        height: 40px;
+        float: right;
+        margin: 5px 0;
+    }
+    
+    .welcome {
+        width: 100%;
+        background: rgba(000, 000, 000, .5);
+        margin-top: 5px;
+    }
+
+    .webwelcome {
+        width: 700px;  
+        margin: auto;
+        margin-top: 130px;
+    }
+    
+    .welcome, .benkim {
+        /* text-align: center; */
+        text-shadow: 5px 5px 10px #000;
+    }
+    
+    .welcome h4 {
+        color: white;
+        margin-bottom: 80px;
+        margin-left: 40px;
+        letter-spacing: 12px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    .benkim h1 {
+        font-family: Raleway,sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: #eca944;
+    }
+    
+    .benkim h3 {
+        color:  #eca944;
+        font-family: 'Alegreya', serif;
+        font-size: 23px;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .social {
+        font-size: 25px;
+        margin-top: 50px;
+        /* margin-left: 290px; */
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+    }
+    
+    .social a {
+        margin: 0 30px;
+        transition: 200ms;
+    }
+    
+    .social .first, .second, .third {
+        color: white;
+    }
+    
+    .social .first:hover {
+        color: violet;
+    }
+    
+    .social .second:hover {
+        color: rgb(32, 160, 220);
+    }
+    
+    .social .third:hover {
+        color: blue;
+    }
+    
+    /* SECTİON BÇLÜMÜ */
+    
+    .section1 {
+        width: 700px;
+        height: 1250px;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .section1 h2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 3px;
+    }
+    
+    .macfoto {
+        width: 550px;
+        height: 600px;
+        margin-top: 50px;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    
+    .section1 article {
+        width: 700px;
+        margin: auto;
+        margin-top: 50px;     
+    }
+    
+    .infoicon {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        color: orangered;
+        margin-top: 10px;
+    }
+    
+    .whatabout {
+        margin-left: 20px;
+    }
+    
+    .whatabout p {
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 19px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+    }
+    
+    /* FOOTER BÖLÜMÜ */
+    
+    .footer {
+        background: #141618;
+        position: relative;
+    }
+    
+    .footer .container {
+        width: 690px;
+        height: 150px;
+        padding-top: 30px;
+        margin: auto;	
+        position: relative;
+    }
+    .footer .footer-nav {
+        display: flex;
+        float: left;
+        margin-left: 40px;
+    }
+    
+    
+    .footer .footer-nav nav {
+        margin-right: 130px;
+        
+    }
+    
+    .footer-nav nav:last-child {
+        margin-right: 0;
+    }
+    
+    .footer-nav ul {
+        list-style-type: none;    
+    }
+    
+    
+    .footer-nav .ilkh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        width: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-nav .sonh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-nav ul li a {
+        
+        font-size: 15px;
+        color: rgba(255, 255, 255, .5);
+        line-height: 150%;
+        transition: 200ms;
+        text-decoration: none;
+    }
+    
+    .footer-nav ul li a i {
+        margin-right: 5px;
+    }
+    
+    .footer-nav ul li a:hover {
+        color: white;
+    }
+    
+    .footerlogo img {
+        width: 90px;
+        float: right;
+    }
+    
+    /* CPYRİGHT */
+    
+    .footer .copyright {
+        background: #000;
+        color: rgba(255, 255, 255, .5);
+        padding: 5px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:719px) {
+
+
+    /* ABOUT BÖLÜMÜ */
+
+    .aboutheader {
+        width: 100%;
+        height: 200px;
+        background: url(../img/about.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -180px;
+    }
+    
+    .aboutsection {
+        width: 460px;
+        height: 1350px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .aboutsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 28px;
+        text-align: center;
+        margin: 30px 0 50px;
+        letter-spacing: 14px;
+    }
+    
+    .aboutsection img {
+        width: 400px;
+        height: 550px;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    
+    .aboutsection .abouticon {
+        text-align: center;
+        margin:40px 0 30px;
+    }
+    
+    .aboutsection .abouticon i {
+        width: 50px;
+        height: 65px;
+    }
+    
+    .whoami p {
+        line-height: 30px;
+        font-size: 20px;
+        font-family: 'Alegreya', serif;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .aboutsection article {
+        width: 420px;
+        margin: auto;
+    }
+    
+    
+    /* ABOUT BİTİŞ */
+    
+    /* CONTACT BÖLÜMÜ */
+    
+    .contactheader {
+        width: 100%;
+        height: 200px;
+        background: url(../img/klavye.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .contactsection {
+        width: 460px;
+        height: 1250px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contactsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 28px;
+        text-align: center;
+        margin: 50px 0 70px;
+        letter-spacing: 15px;
+    }
+    
+    .contactsection img {
+        width: 400px;
+        height: 550px;
+        border: 1px solid #000;
+        padding: 5px;
+    }
+    
+    .contactsection .contactidea {
+        width: 460px;
+        margin: auto;
+    }
+    
+    .contactsection .contactidea .write p {
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Crimson Text', serif;
+        padding-top: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .icons {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .icons a {
+        margin: 0 10px;
+        color: rgb(123, 120, 120);
+        text-decoration: none;
+    }
+    
+    .icons i {
+        margin-right: 10px;
+        color: rgb(36, 142, 181);
+    }
+    
+    .idea p {
+        margin: 60px 0 20px;
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    
+    .socialcontact {
+       
+        text-align: center;
+    }
+    
+    .socialcontact .first {
+        color: rgb(157, 65, 115);
+    } 
+    
+    .socialcontact .second {
+        color:  rgb(32, 160, 220);
+        margin: 0 50px;
+    }
+    
+    .socialcontact .third {
+        color: blue;
+    }
+    
+    
+    /* CONTACT BİTİŞ */
+    
+    .header {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        background: url(../img/arkaplan3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .test {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(000, 000, 000, .5);
+    }
+    
+    .menuler {
+        width: 420px;
+        height: 50px;
+        margin: auto;
+    }
+    
+    .menu {
+        list-style-type: none; 
+        float: left;
+    }
+    
+    .menu li {
+        display: inline-block;
+        line-height: 50px;
+        padding:0 15px;
+    }
+    
+    .menu li:first-child {
+        padding-left: 0;
+    }
+    
+    .menu li:last-child {
+        border-right: none;
+        padding-right: 0;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: #95a5a6;
+    }
+    
+    .menu li a:hover {
+        color: white;
+        transition: 200ms;
+    }
+    
+    .logo1 img {
+        height: 40px;
+        float: right;
+        margin: 5px 0;
+    }
+
+    .welcome {
+        width: 100%;
+        background: rgba(000, 000, 000, .5);
+        margin-top: 5px;
+    }
+
+    .webwelcome {
+        width: 460px;  
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    .welcome, .benkim {
+        /* text-align: center; */
+        text-shadow: 5px 5px 10px #000;
+    }
+    
+    .welcome h4 {
+        color: white;
+        margin-bottom: 80px;
+        margin-left: 40px;
+        letter-spacing: 12px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    .benkim h1 {
+        font-family: Raleway,sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: #eca944;
+    }
+    
+    .benkim h3 {
+        color:  #eca944;
+        font-family: 'Alegreya', serif;
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .social {
+        font-size: 25px;
+        margin-top: 50px;
+        /* margin-left: 290px; */
+        position: absolute;
+        bottom: 0px;
+        left: 21%;
+    }
+    
+    .social a {
+        margin: 0 30px;
+        transition: 200ms;
+    }
+    
+    .social .first, .second, .third {
+        color: white;
+    }
+    
+    .social .first:hover {
+        color: violet;
+    }
+    
+    .social .second:hover {
+        color: rgb(32, 160, 220);
+    }
+    
+    .social .third:hover {
+        color: blue;
+    }
+    
+    /* SECTİON BÇLÜMÜ */
+    
+    .section1 {
+        width: 460px;
+        height: 1100px;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .section1 h2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 3px;
+    }
+    
+    .macfoto {
+        width: 400px;
+        height: 450px;
+        margin-top: 40px;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    
+    .section1 article {
+        width: 460px;
+        margin: auto;
+        margin-top: 50px;     
+    }
+    
+    .infoicon {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        color: orangered;
+        margin-top: 10px;
+    }
+    
+    .whatabout {
+        margin-left: 20px;
+    }
+    
+    .whatabout p {
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 19px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+    }
+    
+    /* FOOTER BÖLÜMÜ */
+    
+    .footer {
+        background: #141618;
+        position: relative;
+    }
+    
+    .footer .container {
+        width: 450px;
+        height: 150px;
+        padding-top: 30px;
+        margin: auto;	
+        position: relative;
+    }
+    .footer .footer-nav {
+        display: flex;
+        float: left;
+        margin-left: 40px;
+    }
+    
+    
+    .footer .footer-nav nav {
+        margin-right: 80px;
+        
+    }
+    
+    .footer-nav nav:last-child {
+        margin-right: 0;
+    }
+    
+    .footer-nav ul {
+        list-style-type: none;    
+    }
+    
+    
+    .footer-nav .ilkh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        width: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-nav .sonh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-nav ul li a {
+        
+        font-size: 15px;
+        color: rgba(255, 255, 255, .5);
+        line-height: 150%;
+        transition: 200ms;
+        text-decoration: none;
+    }
+    
+    .footer-nav ul li a i {
+        margin-right: 5px;
+    }
+    
+    .footer-nav ul li a:hover {
+        color: white;
+    }
+    
+    .footerlogo img {
+        width: 70px;
+        float: right;
+    }
+    
+    /* CPYRİGHT */
+    
+    .footer .copyright {
+        background: #000;
+        color: rgba(255, 255, 255, .5);
+        padding: 5px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:479px) {
+
+
+    /* ABOUT BÖLÜMÜ */
+
+    .aboutheader {
+        width: 100%;
+        height: 100px;
+        background: url(../img/about.JP2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .aboutsection {
+        width: 300px;
+        height: 1350px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .aboutsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 23px;
+        text-align: center;
+        margin: 30px 0 50px;
+        letter-spacing: 14px;
+    }
+    
+    .aboutsection img {
+        width: 280px;
+        height: 400px;
+        padding: 10px;
+    }
+    
+    .aboutsection .abouticon {
+        text-align: center;
+        margin:40px 0 30px;
+    }
+    
+    .aboutsection .abouticon i {
+        width: 50px;
+        height: 65px;
+    }
+    
+    .whoami p {
+        line-height: 30px;
+        font-size: 16px;
+        font-family: 'Alegreya', serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0 3px;
+    }
+    
+    .aboutsection article {
+        width: 300px;
+        margin: auto;
+    }
+    
+    
+    /* ABOUT BİTİŞ */
+    
+    /* CONTACT BÖLÜMÜ */
+    
+    .contactheader {
+        width: 100%;
+        height: 100px;
+        background: url(../img/klavye.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .contactsection {
+        width: 300px;
+        height: 1250px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contactsection h2 {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 23px;
+        text-align: center;
+        margin: 30px 0 50px;
+        letter-spacing: 15px;
+    }
+    
+    .contactsection img {
+        width: 280px;
+        height: 500px;
+        padding: 5px;
+    }
+    
+    .contactsection .contactidea {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .contactsection .contactidea .write p {
+        font-size: 16px;
+        line-height: 30px;
+        font-family: 'Crimson Text', serif;
+        padding-top: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .icons {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .icons a {
+        margin: 0 10px;
+        color: rgb(123, 120, 120);
+        text-decoration: none;
+    }
+    
+    .icons i {
+        margin-right: 10px;
+        color: rgb(36, 142, 181);
+    }
+    
+    .idea p {
+        margin: 60px 0 20px;
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    
+    .socialcontact {
+       
+        text-align: center;
+    }
+    
+    .socialcontact .first {
+        color: rgb(157, 65, 115);
+    } 
+    
+    .socialcontact .second {
+        color:  rgb(32, 160, 220);
+        margin: 0 50px;
+    }
+    
+    .socialcontact .third {
+        color: blue;
+    }
+    
+    
+    /* CONTACT BİTİŞ */
+    
+    .header {
+        width: 100%;
+        height: 500px;
+        position: relative;
+        background: url(../img/arkaplan3.JP2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .test {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(000, 000, 000, .5);
+    }
+    
+    .menuler {
+        width: 280px;
+        height: 50px;
+        margin: auto;
+    }
+    
+    .menu {
+        list-style-type: none; 
+        float: left;
+    }
+    
+    .menu li {
+        display: inline-block;
+        line-height: 50px;
+        padding:0 2px;
+    }
+    
+    .menu li:first-child {
+        padding-left: 0;
+    }
+    
+    .menu li:last-child {
+        border-right: none;
+        padding-right: 0;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: #95a5a6;
+    }
+    
+    .menu li a:hover {
+        color: white;
+        transition: 200ms;
+    }
+    
+    .logo1 img {
+        height: 40px;
+        float: right;
+        margin: 5px 0;
+        display: none;
+    }
+    
+    .welcome {
+        width: 100%;
+        background: rgba(000, 000, 000, .5);
+        margin-top: 5px;
+    }
+
+    .webwelcome {
+        width: 300px;  
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .welcome, .benkim {
+        /* text-align: center; */
+        text-shadow: 5px 5px 10px #000;
+    }
+    
+    .welcome h4 {
+        color: white;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        letter-spacing: 10px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .benkim h1 {
+        font-family: Raleway,sans-serif;
+        font-size: 30px;
+        display: inline-block;
+        color:  #eca944;
+    }
+    
+    .benkim h3 {
+        color: #eca944;
+        font-family: 'Alegreya', serif;
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .social {
+        font-size: 25px;
+        /* margin-left: 290px; */
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+    }
+    
+    .social a {
+        margin: 0 10px;
+        transition: 200ms;
+    }
+    
+    .social .first, .second, .third {
+        color: white;
+    }
+    
+    .social .first:hover {
+        color: violet;
+    }
+    
+    .social .second:hover {
+        color: rgb(32, 160, 220);
+    }
+    
+    .social .third:hover {
+        color: blue;
+    }
+    
+    /* SECTİON BÇLÜMÜ */
+    
+    .section1 {
+        width: 300px;
+        height: 1300px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .section1 h2 {
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    .macfoto {
+        width: 280px;
+        height: 420px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    .section1 article {
+        width: 300px;
+        margin: auto;
+        margin-top: 30px;     
+    }
+    
+    .infoicon {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        color: orangered;
+        margin-top: 10px;
+    }
+    
+    .whatabout {
+        margin-left: 20px;
+    }
+    
+    .whatabout p {
+        margin-top: 30px;
+        line-height: 30px;
+        font-size: 19px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+    }
+    
+    /* FOOTER BÖLÜMÜ */
+    
+    .footer {
+        background: #141618;
+        position: relative;
+    }
+    
+    .footer .container {
+        width: 300px;
+        height: 150px;
+        padding-top: 30px;
+        margin: auto;	
+        position: relative;
+    }
+    .footer .footer-nav {
+        display: flex;
+        float: left;
+        margin-left: 30px;
+    }
+    
+    
+    .footer .footer-nav nav {
+        margin-right: 60px;
+        
+    }
+    
+    .footer-nav nav:last-child {
+        margin-right: 0;
+    }
+    
+    .footer-nav ul {
+        list-style-type: none;    
+    }
+    
+    
+    .footer-nav .ilkh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 10px;
+        width: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-nav .sonh4 {
+        color: #fff;
+        letter-spacing: 1,3px;
+        margin-bottom: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .footer-nav ul li a {
+        
+        font-size: 13px;
+        color: rgba(255, 255, 255, .5);
+        line-height: 150%;
+        transition: 200ms;
+        text-decoration: none;
+    }
+    
+    .footer-nav ul li a i {
+        margin-right: 5px;
+    }
+    
+    .footer-nav ul li a:hover {
+        color: white;
+    }
+    
+    .footerlogo img {
+        width: 70px;
+        float: right;
+        display: none;
+    }
+    
+    /* CPYRİGHT */
+    
+    .footer .copyright {
+        background: #000;
+        color: rgba(255, 255, 255, .5);
+        padding: 5px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+}
